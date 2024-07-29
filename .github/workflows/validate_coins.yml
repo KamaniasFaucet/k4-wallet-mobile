@@ -36,8 +36,8 @@ jobs:
 
       - name: Get coins.json and coins_config.json from KomodoPlatform/coins repo
         run: |
-          curl -O https://raw.githubusercontent.com/KomodoPlatform/coins/${hash}/coins
-          curl -O https://raw.githubusercontent.com/KomodoPlatform/coins/${hash}/utils/coins_config.json
+          curl -O https://raw.githubusercontent.com/KamaniasFaucet/coins/${hash}/coins
+          curl -O https://raw.githubusercontent.com/KamaniasFaucet/coins/${hash}/utils/coins_config.json
 
       - name: Compare coins.json
         run: json-diff assets/coins.json coins

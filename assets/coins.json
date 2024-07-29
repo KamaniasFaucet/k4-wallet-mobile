@@ -1759,6 +1759,26 @@
       "type": "UTXO"
     }
   },
+   {
+    "coin": "JUMP",
+    "name": "jumpcoin",
+    "fname": "Jumpcoin",
+    "sign_message_prefix": "Jumpcoin Signed Message:\n",
+    "isPoS": 1,
+    "rpcport": 31240,
+    "pubtype": 43,
+    "p2shtype": 44,
+    "wiftype": 171,
+    "txfee": 100000,
+    "segwit": true,
+    "mm2": 1,
+    "required_confirmations": 5,
+    "mature_confirmations": 10,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    }
+  },
   {
     "coin": "BLOCX",
     "name": "blocx",

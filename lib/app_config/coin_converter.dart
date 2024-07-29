@@ -154,6 +154,7 @@ String _getColor(String coin) {
     'BET': '#F69B57',
     'BIDR': '#F0B90B',
     'BLK': '#595959',
+	'JUMP': '#00BCA2',
     'BNB': '#F9D987',
     'BNBT': '#F9D987',
     'BOLI': '#F09E40',
