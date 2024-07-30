@@ -48,8 +48,8 @@ class AppConfig {
   String get appCompanyLong => 'Komodo Platform';
   String get appCompanyShort => 'Komodo';
 
-  List<String> get defaultCoins => ['KMD', 'BTC-segwit'];
-  List<String> get coinsFiat => ['BTC-segwit', 'KMD'];
+  List<String> get defaultCoins => ['LTC', 'BTC-segwit'];
+  List<String> get coinsFiat => ['BTC-segwit', 'LTC'];
   List<String> get walletOnlyCoins => [
         'ARRR-BEP20',
         'ATOM',
@@ -160,13 +160,13 @@ class AppConfig {
   // endpoint source code:
   // https://github.com/KomodoPlatform/discord_feed_parser
   bool get isFeedEnabled => true;
-  String get feedProviderSourceUrl => 'https://komodo.earth/messages';
+  String get feedProviderSourceUrl => 'https://t2.kamania.com/messages';
   NewsSource get defaultNewsSource => NewsSource(
-        name: 'Komodo #official-news',
+        name: 'Kamania #official-news',
         url:
-            'https://discord.com/channels/412898016371015680/412915799251222539',
+            'https://kamania.com',
         pic:
-            'https://cdn.discordapp.com/icons/412898016371015680/a_157cb08c4198ad53b9e9b7168c930571.png',
+            'https://kamania.com/faucet/img/kamania_logo_01.png',
       );
 
   // endpoint source code (currently same as news feed endpoint):
