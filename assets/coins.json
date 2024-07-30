@@ -728,6 +728,61 @@
         ],
         "explorer_block_url": "block/"
     },
+    "DEM": {
+        "coin": "DEM",
+        "type": "UTXO",
+        "name": "Deutsche eMark",
+        "coinpaprika_id": "dem-deutsche-emark",
+        "coingecko_id": "deutsche-emark",
+        "livecoinwatch_id": "DEM",
+        "explorer_url": "https://chainz.cryptoid.info/dem/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Deutsche eMark Signed Message:\n",
+        "fname": "Deutsche eMark",
+        "isPoS": 1,
+        "rpcport": 4444,
+        "pubtype": 53,
+        "p2shtype": 30,
+        "wiftype": 181,
+        "txfee": 100000,
+        "segwit": true,
+        "mm2": 1,
+        "required_confirmations": 10,
+        "mature_confirmations": 15,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "electrum1.deutsche-emark.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "contact": [
+                    {
+                        "discord": "k4man1a"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.deutsche-emark.com:50004",
+                "protocol": "WSS",
+                "disable_cert_verification": false,
+                "contact": [
+                    {
+                        "discord": "k4man1a"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "BNB": {
         "coin": "BNB",
         "type": "BEP-20",
@@ -1472,8 +1527,8 @@
         "coin": "SFL-PLG20",
         "type": "Matic",
         "name": "Sunflower Land",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
+        "coinpaprika_id": "sfl1-sunflower-land",
+        "coingecko_id": "sunflower-land",
         "livecoinwatch_id": "_SFL",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "tx/",

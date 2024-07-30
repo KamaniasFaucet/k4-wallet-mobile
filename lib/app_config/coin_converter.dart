@@ -158,6 +158,7 @@ String _getColor(String coin) {
 	'JUMP': '#00BCA2',
     'ADA20': '#E0B65C',
     'SFL': '#FFF94E',
+    'DEM': '#E5CB91',
     'BNB': '#F9D987',
     'BNBT': '#F9D987',
     'BOLI': '#F09E40',
