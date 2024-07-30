@@ -750,6 +750,7 @@
         "pubtype": 53,
         "p2shtype": 30,
         "wiftype": 181,
+        "decimals": 6,
         "txfee": 100000,
         "segwit": true,
         "mm2": 1,
