@@ -728,6 +728,61 @@
         ],
         "explorer_block_url": "block/"
     },
+    "ANEY": {
+        "coin": "ANEY",
+        "type": "UTXO",
+        "name": "Aney Animal Economy",
+        "coinpaprika_id": "aney-animal-economy",
+        "coingecko_id": "",
+        "livecoinwatch_id": "ANEY",
+        "explorer_url": "https://explorer.aney.one/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Aney Animal Economy Signed Message:\n",
+        "fname": "Aney Animal Economy",
+        "isPoS": 1,
+        "rpcport": 33500,
+        "pubtype": 23,
+        "p2shtype": 63,
+        "wiftype": 210,
+        "txfee": 100000,
+        "segwit": true,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "mature_confirmations": 10,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "e1.aney.one:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "contact": [
+                    {
+                        "discord": "k4man1a"
+                    }
+                ]
+            },
+            {
+                "url": "e1.aney.one:50004",
+                "protocol": "WSS",
+                "disable_cert_verification": false,
+                "contact": [
+                    {
+                        "discord": "k4man1a"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "DEM": {
         "coin": "DEM",
         "type": "UTXO",
@@ -763,15 +818,6 @@
         },
         "electrum": [
             {
-                "url": "electrum1.deutsche-emark.com:50001",
-                "contact": [
-                    {
-                        "discord": "k4man1a"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrum2.deutsche-emark.com:50001",
                 "contact": [
                     {
@@ -779,15 +825,6 @@
                     }
                 ],
                 "protocol": "TCP"
-            },
-            {
-                "url": "electrum1.deutsche-emark.com:50004",
-                "contact": [
-                    {
-                        "discord": "k4man1a"
-                    }
-                ],
-                "protocol": "WSS"
             },
             {
                 "url": "electrum2.deutsche-emark.com:50004",
